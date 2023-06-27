@@ -21,11 +21,11 @@ function FormPageComponent() {
         <form action="submit">
 
           <div style={{display: 'flex', flexDirection: 'column'}}>
-          <label htmlFor="text" style={{marginBottom: '1rem', fontSize: '0.6rem', fontWeight: '700' }}> Email Address </label>
-          <input type="text"  placeholder="email@company.com" style={{height: '2rem', paddingLeft: '2rem', borderRadius: '0.5rem', width: '18rem'}}/>
+          <label htmlFor="text" style={{marginBottom: '.5rem', fontSize: '0.6rem', fontWeight: '700' }}> Email Address </label>
+          <input type="text"  placeholder="email@company.com" style={{height: '2rem', paddingLeft: '1rem', borderRadius: '0.5rem', width: '18rem'}}/>
           </div>
 
-           <Button type='submit' variant="contained" style={{backgroundColor: 'hsl(234, 29%, 20%)', width: '20rem', marginTop: '1.5rem', fontSize: '.5rem'}}>Suscribe to monthly news letter</Button>
+          <Button type='submit' variant="contained" style={{backgroundColor: 'hsl(234, 29%, 20%)', height: '2rem', width: '20rem', marginTop: '1rem', fontSize: '.5rem'}}>Suscribe to monthly news letter</Button>
 
         </form>
 
