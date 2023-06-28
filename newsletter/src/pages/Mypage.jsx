@@ -7,7 +7,7 @@ function Mypage() {
   const isSmallScreen = useMediaQuery('(max-width: 850px)');
 
   return (
-    <div style={{backgroundColor: 'hsl(235, 18%, 26%)', height:isSmallScreen ? '100%' : '100vh', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
+    <div style={{backgroundColor: 'hsl(235, 18%, 26%)', height:isSmallScreen ? '80vh' : '100vh', width: '100%', display: 'flex', justifyContent: 'center', alignItems: 'center'}}>
         <WhitePageContainer />
     </div>
   )

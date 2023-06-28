@@ -7,7 +7,7 @@ function ImageComponent() {
   const isSmallScreen = useMediaQuery('(max-width: 850px)');
 
   return (
-    <div style={{ height: '100%', width: '100%', marginRight: isSmallScreen ? '0' : '-6rem' }}>
+    <div style={{ height: '100%', width: '100%', marginRight: isSmallScreen ? '0' : '-6rem' ,  marginBottom: isSmallScreen ? '2rem' : '0'}}>
       <img src={isSmallScreen ? mobileIllustration : desktopIllustration} alt="" style={{ height: '100%', width: '100%' }} />
     </div>
   );
